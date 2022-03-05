@@ -11,13 +11,16 @@ Original Code for 2017:
 ![Original Code for 2017](/Resources/VBA_Challenge_2017_Original_Code.png)
 
 Refactored Code for 2017:
+
 ![Refactored Code for 2017](/Resources/VBA_Challenge_2017.png)
 
 The differences for the year 2018 analysis:
+
 Original Code for 2018:
 ![Original Code for 2018](/Resources/VBA_Challenge_2018_Original_Code.png)
 
 Refactored Code for 2018:
+
 ![Refactored Code for 2018](/Resources/VBA_Challenge_2018.png)
 
 
