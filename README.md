@@ -35,11 +35,22 @@ Refactored Code for 2018:
 ![Refactored Code for 2018](/Resources/VBA_Challenge_2018.png)
 
 
+## Summary
+
+### Advantages/Disadvantages of Refactoring Code
+It is clear from the results that refactoring code can have a large advantage on how quickly the code can run.  In this case, the refactored code runs in 15-20% of the time compared to the original code which indicates that this method is much faster and efficient in analyzing a dataset.  The benefits will only be more noticeable the larger the dataset grows as well.  This example demonstrates that spending time and resources to refactor code can have a huge benefit if the original code is not very efficient.
+
+A disadvantage of refactoring code could be applying time and resources to try and improve code if the original code is already fairly efficient.  In this scenario, the gains made by refactoring might not offset the time it took to improve the code and those same resources could have been spent on more productive tasks.  Refactoring code needs to be viewed as a tradeoff of gains vs effort required and a decision be made if its worth it.  There might be 1000+ different ways to obtain the same results, however a cost/benefit analysis needs to be done to determine if any additional refactoring is worth it.
+
+### Pros/Cons of Refactoring the Original VBA Script
+The pros of refactoring the original VBA script in this task was to learn a different and new method of analyzing the same dataset while obtaining the same result, and also seeing the impact of how that method can affect the time it takes for the computer to run the analysis.  This was very eye opening just how much impact the different methods have on analysis times.
+
+The cons of refactoring the original VBA script were potentially breaking a known-good script by introducing new errors/bugs that were not there originally.  Using different methods in coding can utilize a different approach to the logic used, so it is very important to ensure the new code is still accomplishing all the goals of the original code, just in a more efficient way.  Refactoring can also take a long time to work through, either through new bugs or obtaining different results that need to be worked through.  In my case, I incorrectly referenced the "Adj Close" column instead of the "Close" column in the refactored code.  This one mistake took me about 2 additional hours to work through as I could not figure out why my results were different, even though I was not getting any errors and my logic statements were verified multiple times.  Once I referenced the correct column my code worked correctly, but this was difficult to troubleshoot since there were no errors being presented.
 
 
 
-##Summary
 
-###Advantages of Refactoring Code
 
-###Pros/Cons of Refactoring the Original VBA Script
+
+
+
